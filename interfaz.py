@@ -30,6 +30,7 @@ while True:
 		break
 	elif event == btnCadena:
 		if window[txtInput].get() is not None and window[txtInput].get() is not '':
+			window[txtSin]('')
 			cadena = window[txtInput].get()
 
 			calcu = SyntaxAnalyzerCalc(cadena)
