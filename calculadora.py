@@ -155,7 +155,7 @@ class SyntaxAnalyzerCalc:
                 if tok == "PROD":
                     v[0] *= v1[0]
                 else:
-                    v[0] = V[0]/v1[0]
+                    v[0] = v[0]/v1[0]
                 #s[0] = tok == "PROD" ? "*" : "/" s[0] + s1[0]
                 if (self.Tp(v,s)):
                     return True
